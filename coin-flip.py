@@ -16,7 +16,7 @@ print(figlet)
 # User input for interaction
 guess = input("Heads or Tails?: ").strip().capitalize()
 if guess not in ("Heads", "Tails"):
-    print("You must enter 'Heads' or 'Tails'")
+    print("You must enter 'Heads' or 'Tails'🤷")
 else:
     # Create a single-qubit circuit
     qc = QuantumCircuit(1, name="Quantum Coin Flip")
@@ -36,6 +36,6 @@ else:
 
     # Check if user's guess is correct
     if guess == labels[outcome]:
-        print("You're correct!")
+        print("You're correct!👍")
     else:
-        print("You're wrong!")
+        print("You're wrong!👎")
