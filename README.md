@@ -1,4 +1,5 @@
-# Quantum Coin Flip
+# Quantum Coin Flip🪙
+<img src="https://github.com/boydjawun/quantum-coin-flip/blob/main/assets/Screenshot%202026-08-30%20063845.png" height = "500" width = "500">
 
 > A simple Qiskit + IonQ program that puts a qubit in superposition and measures it as **Heads** or **Tails**.
 
